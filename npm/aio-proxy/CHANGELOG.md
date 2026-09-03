@@ -1,5 +1,13 @@
 # aio-proxy
 
+## 0.16.0
+
+### Minor Changes
+
+- [#249](https://github.com/aio-proxy/aio-proxy/pull/249) [`e5e18af`](https://github.com/aio-proxy/aio-proxy/commit/e5e18af5f48f54c9dcc8e823fbcda137a97ad4b5) Thanks [@baranwang](https://github.com/baranwang)! - openai-chatgpt: report ChatGPT OAuth quota in the dashboard
+
+  The ChatGPT (Codex) OAuth adapter now reads `wham/usage`, so its Provider card shows the quota ring: the 5-hour and weekly windows, any model-specific limits the account reports (Codex Spark and the like), the subscription plan, and the available rate-limit reset credits.
+
 ## 0.15.0
 
 ### Minor Changes
